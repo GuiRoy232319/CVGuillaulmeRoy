@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F08BC8DE2C902972009B9EFB /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = F08BC8DD2C902972009B9EFB /* Reachability */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F06AB3E32C89ABC900776855 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08BC8DE2C902972009B9EFB /* Reachability in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = CVGuillaulmeRoy;
 			packageProductDependencies = (
+				F08BC8DD2C902972009B9EFB /* Reachability */,
 			);
 			productName = CVGuillaulmeRoy;
 			productReference = F06AB3CF2C89ABC300776855 /* CVGuillaulmeRoy.app */;
@@ -187,14 +193,19 @@
 				};
 			};
 			buildConfigurationList = F06AB3CA2C89ABC300776855 /* Build configuration list for PBXProject "CVGuillaulmeRoy" */;
-			developmentRegion = en;
+			developmentRegion = fr;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				sv,
 			);
 			mainGroup = F06AB3C62C89ABC200776855;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F08BC8DC2C902972009B9EFB /* XCRemoteSwiftPackageReference "Reachability" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F06AB3D02C89ABC300776855 /* Products */;
 			projectDirPath = "";
@@ -326,6 +337,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -380,6 +392,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
@@ -591,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F08BC8DC2C902972009B9EFB /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F08BC8DD2C902972009B9EFB /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F08BC8DC2C902972009B9EFB /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F06AB3C72C89ABC300776855 /* Project object */;
 }
