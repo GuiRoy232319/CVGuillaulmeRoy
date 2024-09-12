@@ -13,6 +13,7 @@ struct AuroraForecastView: View {
     @State private var currentImageIndex = 0
     @State private var isAnimating = false
     @State private var isLoading = false
+    @State private var help = false
     var body: some View {
         VStack {
             Text("Projection des 24 dernières heures")
@@ -21,6 +22,19 @@ struct AuroraForecastView: View {
                 .underline()
                 .colorInvert()
                 .shadow(color: .white, radius: 10, x: 3, y: 3)
+            Button("Astuce",systemImage: "info.circle") {
+                help = true
+            }.actionSheet(isPresented: $help) {
+                ActionSheet(
+                    title: Text("Astuce"),
+                    message: Text("Tapper deux fois sur l'image pour lancer l'animation"),
+                    buttons: [
+                        .cancel()
+                    ]
+                )
+            }
+            .frame(width: 350, alignment: .leading)
+            .padding(5)
             ZStack {
                 Image(uiImage: latestImage)
                     .resizable()

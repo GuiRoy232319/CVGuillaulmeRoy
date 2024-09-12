@@ -6,12 +6,9 @@
 //
 
 import SwiftUI
-import SwiftData
 
 struct MainView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-    
+   
     var body: some View {
         TabView{
             ProfilView()
@@ -27,6 +24,7 @@ struct MainView: View {
                     Label("Exemple Données Aurore", systemImage: "cloud.rainbow.half.fill")
                 }
         }
+       
 #if os(macOS)
         .navigationSplitViewColumnWidth(min: 180, ideal: 200)
 #endif
@@ -41,11 +39,11 @@ struct MainView: View {
 #endif
         }
         .tabViewStyle(.automatic)
+        .foregroundStyle(.black, .orange)
     }
 }
 
 
 #Preview {
     MainView()
-        .modelContainer(for: Item.self, inMemory: true)
 }

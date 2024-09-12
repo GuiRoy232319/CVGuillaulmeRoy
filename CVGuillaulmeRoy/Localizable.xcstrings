@@ -1,12 +1,242 @@
 {
   "sourceLanguage" : "fr",
   "strings" : {
-    "Attentes" : {
+    "" : {
+
+    },
+    "%@" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Expectations"
+            "value" : "%@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        }
+      }
+    },
+    "+33 6 12 34 56 78" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+33 7 80 38 37 29"
+          }
+        }
+      }
+    },
+    "37 Ans" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "37 years old"
+          }
+        }
+      }
+    },
+    "2006:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2006:"
+          }
+        }
+      }
+    },
+    "2009:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2009:"
+          }
+        }
+      }
+    },
+    "2012:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2012:"
+          }
+        }
+      }
+    },
+    "2021:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2021:"
+          }
+        }
+      }
+    },
+    "2022:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2022:"
+          }
+        }
+      }
+    },
+    "2024:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2024:"
+          }
+        }
+      }
+    },
+    "ABC Corp" : {
+
+    },
+    "Adaptabilité" : {
+
+    },
+    "Adresse:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adress:"
+          }
+        }
+      }
+    },
+    "Age:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Age:"
+          }
+        }
+      }
+    },
+    "Alamofire" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alamofire"
+          }
+        }
+      }
+    },
+    "Allemand:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deutsch"
+          }
+        }
+      }
+    },
+    "Anglais:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English:"
+          }
+        }
+      }
+    },
+    "Arrêt de l'animation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop Animating"
+          }
+        }
+      }
+    },
+    "Astuce" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tips"
+          }
+        }
+      }
+    },
+    "Aucune connexion internet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Internet Connection…."
+          }
+        }
+      }
+    },
+    "Baccalauréat Scientifique Option Sciences de l'ingénieur Spécialité Physique/Chimie" : {
+
+    },
+    "Certifaction de formation général en SwiftUI" : {
+
+    },
+    "Certifaction de formation général en UIKit" : {
+
+    },
+    "Chargement des images..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading pictures…"
+          }
+        }
+      }
+    },
+    "CircleCI" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CircleCI"
+          }
+        }
+      }
+    },
+    "Communication" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Communication"
           }
         }
       }
@@ -21,12 +251,112 @@
         }
       }
     },
+    "Développeur" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Developer"
+          }
+        }
+      }
+    },
+    "Développeur IOS" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS Developer"
+          }
+        }
+      }
+    },
+    "Développeur iOS indépendant et gestionnaire principal chez Code Sweden avec expertise en Swift et SwiftUI. Polyvalent, rigoureux et travailleur. Diplômé de niveau 6 en développement iOS d'Openclassrooms et certifié en SwiftUI par Udemy. Cherche opportunités pour développer ses compétences et évoluer professionnellement." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Independent iOS Developer and Lead Manager at Code Sweden with expertise in Swift and SwiftUI. Versatile, meticulous, and hardworking. Holds a Level 6 diploma in iOS development from Openclassrooms and is certified in SwiftUI by Udemy. Seeking opportunities to further develop skills and advance professionally."
+          }
+        }
+      }
+    },
     "Diplômes" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Degree"
+          }
+        }
+      }
+    },
+    "Email:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email:"
+          }
+        }
+      }
+    },
+    "Entreprise:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Company:"
+          }
+        }
+      }
+    },
+    "Exemple API Golf" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Golf API"
+          }
+        }
+      }
+    },
+    "Exemple Données Aurore" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aurora Forecast API"
+          }
+        }
+      }
+    },
+    "Fastlane" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fastlane"
+          }
+        }
+      }
+    },
+    "Firebase" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firebase"
+          }
+        }
+      }
+    },
+    "Français:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "French"
           }
         }
       }
@@ -41,6 +371,9 @@
         }
       }
     },
+    "guillaume.roy@example.com" : {
+
+    },
     "Hard Skills" : {
       "localizations" : {
         "en" : {
@@ -51,15 +384,14 @@
         }
       }
     },
-    "Hello, World!" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hello, World"
-          }
-        }
-      }
+    "L2 Expertise Gemmologie niveau 2" : {
+
+    },
+    "L2 Management du sport" : {
+
+    },
+    "L3 / M1 Développeur d'applications Mobile IOS" : {
+
     },
     "Langues" : {
       "localizations" : {
@@ -67,6 +399,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Langages"
+          }
+        }
+      }
+    },
+    "Missed Cut" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missed Cut"
           }
         }
       }
@@ -81,6 +423,16 @@
         }
       }
     },
+    "Nyhyttan 122, 713 94 Nora, Suède" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyhyttan 122, 713 94 Nora, Sweden"
+          }
+        }
+      }
+    },
     "Partager" : {
       "localizations" : {
         "en" : {
@@ -91,22 +443,44 @@
         }
       }
     },
-    "Select an item" : {
+    "Ponctuel" : {
+
+    },
+    "Poste:" : {
+
+    },
+    "Projection des 24 dernières heures" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Select an Item"
+            "value" : "Last 24h Projection"
           }
         }
       }
     },
-    "Situation" : {
+    "Résistant à la pression" : {
+
+    },
+    "restest" : {
+
+    },
+    "Schedule" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Situation"
+            "value" : "Schedule"
+          }
+        }
+      }
+    },
+    "Sérieux" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serious"
           }
         }
       }
@@ -117,6 +491,106 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soft Skills"
+          }
+        }
+      }
+    },
+    "SQL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SQL"
+          }
+        }
+      }
+    },
+    "Suédois:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swedish"
+          }
+        }
+      }
+    },
+    "Swift" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift"
+          }
+        }
+      }
+    },
+    "SwiftUI" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI"
+          }
+        }
+      }
+    },
+    "Tapper deux fois sur l'image pour lancer l'animation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap twice on picture to launch animation"
+          }
+        }
+      }
+    },
+    "Téléphone:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phone:"
+          }
+        }
+      }
+    },
+    "test" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test"
+          }
+        }
+      }
+    },
+    "Tournois" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tournament"
+          }
+        }
+      }
+    },
+    "Travail en équipe" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Team Work"
+          }
+        }
+      }
+    },
+    "UIKit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UIKit"
           }
         }
       }
