@@ -35,6 +35,7 @@ struct AuroraForecastView: View {
             }
             .frame(width: 350, alignment: .leading)
             .padding(5)
+            .colorInvert()
             ZStack {
                 Image(uiImage: latestImage)
                     .resizable()
@@ -105,7 +106,7 @@ struct AuroraForecastView: View {
                     latestImage = imagesArray[currentImageIndex]
                 }
                 currentImageIndex = (currentImageIndex + 1) % imagesArray.count
-                try? await Task.sleep(nanoseconds: 10000000)
+                try? await Task.sleep(nanoseconds: 5000000)
             }
         }
     }

@@ -54,7 +54,7 @@ struct ProfilView: View {
 
                         expandableSection(header: "Diplômes", isExpanded: $expandedDegrees, details: degrees)
 
-                        expandableSection(header: "Expériences Professionnelles", isExpanded: $expandedWorks, details: workExp)
+                        expandableWorkSection(header: "Expériences Professionnelles", isExpanded: $expandedWorks, details: workExp)
 
                         expandableSectionWithGauge(header: "Langues", isExpanded: $expandedLangages, details: langages)
 
@@ -69,116 +69,6 @@ struct ProfilView: View {
             }
         }
     }
-
-    private func expandableSection(header: String, isExpanded: Binding<Bool>, details: [(category: LocalizedStringResource, detail: LocalizedStringResource)]) -> some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Button(action: {
-                withAnimation(.smooth(duration: 0.6)) {
-                    isExpanded.wrappedValue.toggle()
-                }
-            }) {
-                HStack {
-                    Text(header)
-                        .font(.headline)
-                        .foregroundColor(.black)
-                    Spacer()
-                    Image(systemName: isExpanded.wrappedValue ? "chevron.up" : "chevron.down")
-                        .foregroundColor(.orange)
-                }
-                .padding()
-                .background(Color.white.opacity(0.2))
-                .cornerRadius(8)
-            }
-
-            if isExpanded.wrappedValue {
-                VStack(spacing: 5) {
-                    ForEach(details, id: \.category.key) { detail in
-                        DetailView(category: detail.category, detail: detail.detail)
-                            .transition(.opacity)
-                    }
-                }
-                .padding(.horizontal)
-                .background(Color.white.opacity(0.6))
-                .cornerRadius(8)
-            } else {
-                EmptyView()
-                    .frame(height: 0)
-            }
-        }
-        .animation(.smooth(duration: 0.6), value: isExpanded.wrappedValue)
-    }
-    
-    private func expandableSectionWithGauge(header: String, isExpanded: Binding<Bool>, details: [(category: LocalizedStringResource, detail: Double)]) -> some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Button(action: {
-                withAnimation(.smooth(duration: 0.6)) {
-                    isExpanded.wrappedValue.toggle()
-                }
-            }) {
-                HStack {
-                    Text(header)
-                        .font(.headline)
-                        .foregroundColor(.black)
-                    Spacer()
-                    Image(systemName: isExpanded.wrappedValue ? "chevron.up" : "chevron.down")
-                        .foregroundColor(.orange)
-                }
-                .padding()
-                .background(Color.white.opacity(0.2))
-                .cornerRadius(8)
-            }
-
-            if isExpanded.wrappedValue {
-                VStack(spacing: 10) {
-                    ForEach(details, id: \.category.key) { detail in
-                        gaugeDetailView(category: detail.category, detail: detail.detail)
-                            .transition(.opacity)
-                    }
-                }
-                .padding(.horizontal)
-                .background(Color.white.opacity(0.6))
-                .cornerRadius(8)
-            } else {
-                EmptyView()
-                    .frame(height: 0)
-            }
-        }
-        .animation(.smooth(duration: 0.6), value: isExpanded.wrappedValue)
-    }
-}
-
-struct DetailView: View {
-    var category: LocalizedStringResource
-    var detail: LocalizedStringResource
-    
-    var body: some View {
-        HStack {
-            Text(category)
-                .fontWeight(.bold)
-            Spacer()
-            Text(detail)
-                .foregroundColor(.secondary)
-                .multilineTextAlignment(.leading)
-        }
-        .padding()
-    }
-}
-
-struct gaugeDetailView: View{
-    var category : LocalizedStringResource
-    var detail: Double
-    
-    var body: some View{
-        HStack(){
-            Text(category)
-                .fontWeight(.bold)
-            Spacer()
-            GaugeView(gradient: Gradient(colors:[.purple,.blue,.green]), progress: detail)
-                .gaugeStyle(.accessoryLinear)
-                .frame(width:250 ,alignment: .leading)
-        }
-    }
-    
 }
 
 #Preview {

@@ -36,9 +36,15 @@
         }
       }
     },
-    "+33 6 12 34 56 78" : {
+    "+33 7 80 38 37 29" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+33 7 80 38 37 29"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "+33 7 80 38 37 29"
@@ -53,12 +59,24 @@
             "state" : "translated",
             "value" : "37 years old"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "37 År"
+          }
         }
       }
     },
     "2006:" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2006:"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "2006:"
@@ -73,12 +91,24 @@
             "state" : "translated",
             "value" : "2009:"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2009:"
+          }
         }
       }
     },
     "2012:" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2012:"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "2012:"
@@ -93,12 +123,24 @@
             "state" : "translated",
             "value" : "2021:"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2021:"
+          }
         }
       }
     },
     "2022:" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2022:"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "2022:"
@@ -113,18 +155,40 @@
             "state" : "translated",
             "value" : "2024:"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2024:"
+          }
         }
       }
     },
-    "ABC Corp" : {
-
-    },
     "Adaptabilité" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adaptability"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anpassningsförmåga"
+          }
+        }
+      }
     },
     "Adresse:" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adress:"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adress:"
@@ -139,12 +203,40 @@
             "state" : "translated",
             "value" : "Age:"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ålder"
+          }
+        }
+      }
+    },
+    "Agent Immbolier" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Real Estate"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fastighetsmäklare"
+          }
         }
       }
     },
     "Alamofire" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alamofire"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alamofire"
@@ -159,6 +251,12 @@
             "state" : "translated",
             "value" : "Deutsch"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyska:"
+          }
         }
       }
     },
@@ -168,6 +266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "English:"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engelska:"
           }
         }
       }
@@ -179,6 +283,12 @@
             "state" : "translated",
             "value" : "Stop Animating"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stoppar animationen"
+          }
         }
       }
     },
@@ -188,6 +298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tips"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lura"
           }
         }
       }
@@ -199,17 +315,78 @@
             "state" : "translated",
             "value" : "No Internet Connection…."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen internetuppkoppling"
+          }
         }
       }
     },
     "Baccalauréat Scientifique Option Sciences de l'ingénieur Spécialité Physique/Chimie" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scientific Baccalaureate, Engineering Sciences Option, Physics/Chemistry Specialty"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vetenskaplig Gymnasieexamen, alternativ för ingenjörsvetenskap, specialitet i fysik/kemi"
+          }
+        }
+      }
+    },
+    "Bouldoires 2011 - 2014" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bouldoires 2011 - 2014"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bouldoires 2011 - 2014"
+          }
+        }
+      }
     },
     "Certifaction de formation général en SwiftUI" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General training certification in SwiftUI"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allmän utbildningscertifiering i SwiftUI"
+          }
+        }
+      }
     },
     "Certifaction de formation général en UIKit" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General training certification in UIKit"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allmän utbildningscertifiering i UIKit"
+          }
+        }
+      }
     },
     "Chargement des images..." : {
       "localizations" : {
@@ -217,6 +394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loading pictures…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laddar bilder..."
           }
         }
       }
@@ -228,6 +411,28 @@
             "state" : "translated",
             "value" : "CircleCI"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CircleCI"
+          }
+        }
+      }
+    },
+    "Code Sweden 2021 - ce jour" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code Sweden 2021 - Today"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code Sweden 2021 - Idag"
+          }
         }
       }
     },
@@ -237,6 +442,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Communication"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kommunikation"
           }
         }
       }
@@ -248,25 +459,27 @@
             "state" : "translated",
             "value" : "Contact"
           }
-        }
-      }
-    },
-    "Développeur" : {
-      "localizations" : {
-        "en" : {
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developer"
+            "value" : "Kontakta"
           }
         }
       }
     },
-    "Développeur IOS" : {
+    "Développeur iOS" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "iOS Developer"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS Utvecklare"
           }
         }
       }
@@ -278,6 +491,12 @@
             "state" : "translated",
             "value" : "Independent iOS Developer and Lead Manager at Code Sweden with expertise in Swift and SwiftUI. Versatile, meticulous, and hardworking. Holds a Level 6 diploma in iOS development from Openclassrooms and is certified in SwiftUI by Udemy. Seeking opportunities to further develop skills and advance professionally."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frilansande iOS-utvecklare och huvudansvarig chef på Code Sweden med expertis inom Swift och SwiftUI. Mångsidig, noggrann och arbetsam. Innehavare av en nivå 6-examen i iOS-utveckling från Openclassrooms och certifierad i SwiftUI via Udemy. Söker möjligheter att vidareutveckla kompetenser och avancera professionellt."
+          }
         }
       }
     },
@@ -287,6 +506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Degree"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diplom"
           }
         }
       }
@@ -298,15 +523,11 @@
             "state" : "translated",
             "value" : "Email:"
           }
-        }
-      }
-    },
-    "Entreprise:" : {
-      "localizations" : {
-        "en" : {
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Company:"
+            "value" : "Email:"
           }
         }
       }
@@ -318,6 +539,12 @@
             "state" : "translated",
             "value" : "Golf API"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APi Golf Exempel"
+          }
         }
       }
     },
@@ -328,12 +555,24 @@
             "state" : "translated",
             "value" : "Aurora Forecast API"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aurore Data Exempel"
+          }
         }
       }
     },
     "Fastlane" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fastlane"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fastlane"
@@ -348,6 +587,12 @@
             "state" : "translated",
             "value" : "Firebase"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Firebase"
+          }
         }
       }
     },
@@ -357,6 +602,60 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "French"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Franska"
+          }
+        }
+      }
+    },
+    "g.roy2308@gmail.com" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "g.roy2308@gmail.com"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "g.roy2308@gmail.com"
+          }
+        }
+      }
+    },
+    "Gérant et Développeur iOS" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Owner & iOS Developer"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manager och iOS Utvecklare"
+          }
+        }
+      }
+    },
+    "Gérant et vendeur" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Owner & Shop Manager"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manager och säljare"
           }
         }
       }
@@ -368,11 +667,14 @@
             "state" : "translated",
             "value" : "Guillaume Roy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guillaume Roy"
+          }
         }
       }
-    },
-    "guillaume.roy@example.com" : {
-
     },
     "Hard Skills" : {
       "localizations" : {
@@ -381,17 +683,94 @@
             "state" : "translated",
             "value" : "Hard Skills"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hard Skills"
+          }
+        }
+      }
+    },
+    "Hélix Immobilier 2017" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hélix Immobilier 2017"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hélix Immobilier 2017"
+          }
+        }
+      }
+    },
+    "Heure & Montres 2009 - 2010" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heure & Montres 2009 - 2010"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heure & Montres 2009 -2010"
+          }
         }
       }
     },
     "L2 Expertise Gemmologie niveau 2" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L2 Gemmology Expertise Level 2"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L2 Expertis Gemmologi nivå 2"
+          }
+        }
+      }
     },
     "L2 Management du sport" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L2 Sports Management "
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L2 Sportledning"
+          }
+        }
+      }
     },
     "L3 / M1 Développeur d'applications Mobile IOS" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L3 / M1 IOS Mobile Application Developer"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L3 / M1 iOS Utvecklare "
+          }
+        }
+      }
     },
     "Langues" : {
       "localizations" : {
@@ -400,12 +779,24 @@
             "state" : "translated",
             "value" : "Langages"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Främmande Språk"
+          }
         }
       }
     },
     "Missed Cut" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missed Cut"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Missed Cut"
@@ -420,6 +811,12 @@
             "state" : "translated",
             "value" : "My Profil"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitt Konto"
+          }
         }
       }
     },
@@ -429,6 +826,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nyhyttan 122, 713 94 Nora, Sweden"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyhyttan 122, 713 94 Nora, Sverige"
           }
         }
       }
@@ -440,14 +843,30 @@
             "state" : "translated",
             "value" : "Shared"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela"
+          }
         }
       }
     },
     "Ponctuel" : {
-
-    },
-    "Poste:" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Punctual"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Punktlig"
+          }
+        }
+      }
     },
     "Projection des 24 dernières heures" : {
       "localizations" : {
@@ -456,14 +875,46 @@
             "state" : "translated",
             "value" : "Last 24h Projection"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projektering av de senaste 24 timmarna"
+          }
         }
       }
     },
     "Résistant à la pression" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resistant to pressure"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryckbeständigt"
+          }
+        }
+      }
     },
-    "restest" : {
-
+    "Responsable de magasin" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shop Manager"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Butiksföreståndare"
+          }
+        }
+      }
     },
     "Schedule" : {
       "localizations" : {
@@ -471,6 +922,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schedule"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schema"
           }
         }
       }
@@ -482,6 +939,12 @@
             "state" : "translated",
             "value" : "Serious"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seriös"
+          }
         }
       }
     },
@@ -492,12 +955,40 @@
             "state" : "translated",
             "value" : "Soft Skills"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soft Skills"
+          }
+        }
+      }
+    },
+    "Sonrisa 2014 - 2016" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonrisa 2014 - 2016"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonrisa 2014 - 2016"
+          }
         }
       }
     },
     "SQL" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SQL"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "SQL"
@@ -512,12 +1003,24 @@
             "state" : "translated",
             "value" : "Swedish"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svenska"
+          }
         }
       }
     },
     "Swift" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Swift"
@@ -532,6 +1035,12 @@
             "state" : "translated",
             "value" : "SwiftUI"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI"
+          }
         }
       }
     },
@@ -541,6 +1050,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap twice on picture to launch animation"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dubbelklicka på bilden för att starta animeringen"
           }
         }
       }
@@ -552,15 +1067,11 @@
             "state" : "translated",
             "value" : "Phone:"
           }
-        }
-      }
-    },
-    "test" : {
-      "localizations" : {
-        "en" : {
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Test"
+            "value" : "Telefon"
           }
         }
       }
@@ -572,6 +1083,12 @@
             "state" : "translated",
             "value" : "Tournament"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turneringar"
+          }
         }
       }
     },
@@ -582,6 +1099,12 @@
             "state" : "translated",
             "value" : "Team Work"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grupparbete"
+          }
         }
       }
     },
@@ -591,6 +1114,60 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "UIKit"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UIKit"
+          }
+        }
+      }
+    },
+    "Vape N' Taste 2018 - 2019" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vape N’ Taste"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vape N’ Taste 2018 - 2019"
+          }
+        }
+      }
+    },
+    "Vendeur en horlogerie" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch salesman"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klockförsäljare"
+          }
+        }
+      }
+    },
+    "Vendeur en horlogerie/bijouterie" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch/jewelry salesperson"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klocka/smyckessäljare"
           }
         }
       }
